@@ -1,0 +1,15 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1>{{ item.name }}</h1>
+    <p>Users who added this product/item under their wish list:</p>
+    {% for user in users %}
+        <p>{{ current_user.first_name }}</p>
+    {% endfor %}
+
+    <a href="/">Home</a>
+    <a href="/logout">Logout</a>
+</body>
+</html>

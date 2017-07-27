@@ -1,0 +1,41 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Hello, {{ user.first_name }}</h1>
+
+    <h2>Your Wish List:</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Added By</th>
+            <th>Date Added</th>
+            <th>Action</th>
+        </tr>
+        {% for item in items %}
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href=""></a></td>
+        {% endfor %}
+    </table>
+    <h2>Other's Wish List:</h2>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Added By</th>
+            <th>Date Added</th>
+            <th>Action</th>
+        </tr>
+        {% for item in items %}
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href=""></a></td>
+        {% endfor %}
+    </table>
+
+    <a href="/dashboardcreate">Add Item</a>
+</body>
+</html>
